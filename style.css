@@ -1,0 +1,148 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0%;
+    background-color: #a0a0a0;
+}
+
+header{
+    background-color: #000000;
+    /* margin-top:0%; */
+    padding: 10px;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    color: rgb(255, 245, 224);
+    margin-top: 0%;
+    text-shadow: 3px 3px 3px rgb(129, 129, 129);
+}
+
+h1::before{
+    content: "";
+    color: aqua;
+}
+nav{
+    background-color: #695d5dce;
+    padding: 10px;
+    width: 98.3%;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    /* background-color: ; */
+    justify-content:space-around;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: bisque;
+    padding: 10PX;
+    /* background-color: blueviolet; */
+}
+
+nav ul li a:hover{
+    background-color:#ffffff8f;
+    border-radius: 13px;
+}
+
+nav ul li a:active{
+    background-color: rgb(0, 136, 255);
+}
+
+/* nav ul li a:visited{
+    background-color: rgb(0, 0, 0) ;
+} */
+
+.p::first-letter{
+    font-size: 2em;
+    color: #000000;
+    font-weight: 700;
+}
+
+/* .p::selection{
+    background-color: brown;
+    color: blueviolet;
+    
+} */
+
+h2{
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+    color: #d1cfcf;
+    text-shadow: 3px 3px 3px black;
+}
+
+p{
+    width: 50%;
+    text-align: center;
+    line-height: 1.5;
+    margin-left: 330px;
+    font-size: 20px;
+}
+
+img{
+    width: 40%;
+    border-radius: 13px;
+    margin-left:410px;
+    height: 420px;
+    box-shadow: 3px 3px 3px black;
+}
+
+section{
+    margin-bottom: 110px;
+}
+
+footer{
+    position: absolute;
+    margin-bottom:0;
+    background-color: #d1cfcf;
+    color: #000000;
+    width: 100%;
+}
+
+footer p{
+    margin: 0;
+    margin-left: 24%;
+    font-size: 17px;
+    padding: 0%;
+}
+
+@media (max-width: 768px){
+    nav{
+          font-size: 15px;
+          padding: 10px;
+          margin: 0;
+          width: 94.7%;
+
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+    .p{
+        margin-left: 17%;
+        width: 70%;
+    }
+
+    img{
+        margin-left: 20% ;
+        height: 200px;
+        width: 60%;
+    }
+   
+   .footer p{
+    font-size: 15px;
+    width: 100%;
+    margin-left: 0;
+   }
+
+}
+
+
+
